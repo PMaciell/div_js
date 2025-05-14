@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Carros</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h2>Escolha seu carro:</h2>
+        <div id="conteudos" class="border p-3 d-flex flex-wrap gap-3">
+            <button class="carro btn btn-secondary" data-carro="Vectra">
+                <img src="img/Vectra.jpg" alt="Vectra">
+                <span>Vectra</span>
+            </button>
+            <button class="carro btn btn-secondary" data-carro="Opala">
+                <img src="img/opala.jpg" alt="Opala">
+                <span>Opala</span>
+            </button>
+            <button class="carro btn btn-secondary" data-carro="Monza">
+                <img src="img/Monza.jpg" alt="Monza">
+                <span>Monza</span>
+            </button>
+            <button class="carro btn btn-secondary" data-carro="D20">
+                <img src="img/D20.jpg" alt="D20">
+                <span>D20</span>
+            </button>
+            <button class="carro btn btn-secondary" data-carro="Astra">
+                <img src="img/astra.jpg" alt="Astra">
+                <span>Astra</span>
+            </button>
+        </div>
+
+        <div class="mt-3">
+            <button id="btnAdicionar" class="btn btn-primary">Adicionar</button>
+        </div>
+
+        <h2 class="mt-4">Carros Selecionados:</h2>
+        <div id="destino" class="border p-3 d-flex flex-wrap gap-3"></div>
+    </div>
+
+   <script src="js/script.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
